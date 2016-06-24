@@ -29,11 +29,396 @@
 			<a href="#">File Operation</a>
 			<a href="#">File Permissions</a>
 			<a href="#">I/O Redirection</a>
-			<a href="#">Pipes</a>
 			<a href="#">Process Managment</a>
 		</nav>
 
 		<section>
+			<table>
+				<thead>
+					<tr>
+						<th>
+							Bash Commands
+						</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>
+							<strong>uname -a</strong>Show system and kernel
+
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>mount</strong>Show mounted file system
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>date</strong>show system date
+						</td>
+					</tr>	
+					<tr>
+						<td>
+							<strong>whoami</strong>Show your username
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>man command</strong>Show manual for command
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table>
+				<thead>
+					<tr>
+						<th>
+							Bash Shortcut
+						</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>
+							<strong>Ctrl-c</strong>Stop current command
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>Ctrl-z</strong>Sleep Program	
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>Ctrl-a</strong>Go to start of line	
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>Ctrl-e</strong> Go to end of line 
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>Ctrl-u</strong>Cut from start of line	
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>Ctrl-k</strong>Cut from end of line	
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table>
+				<thead>
+					<tr>
+						<th>
+							Directory Operations	
+						</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>
+							<strong>pwd</strong>Show current directory
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>mkdir dir</strong>Make directory <em>dir</em>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>cd dir</strong>Change directory to <em>dir</em>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>cd ..</strong>Go up a directry
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>ls</strong>List files
+						</td>
+					</tr>
+
+				</tbody>
+			</table>
+
+			<table>
+				<thead>
+					<tr>
+						<th>
+							Ls Option
+						</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>
+							<strong>ls -a</strong>Show all(include hidden)
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>ls -R</strong>Recursive list
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>ls -r</strong>Reverse order
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>ls -t</strong>Sort by last modified
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>ls -S</strong>Sort by file size 
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>ls -l</strong>Long listing format
+						</td>
+					</tr>
+
+				</tbody>
+			</table>
+	
+			<table>
+				<thead>
+					<tr>
+						<th>
+							Bash Variable
+						</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>
+							<strong>env</strong>Show environement variable
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>acho $NAME</strong>Output value of $NAME variable
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>export $NAME= value</strong>set $NAME to value
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>$PATH</strong>Executable search path
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>$HOME</strong>Home directory
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>$SHELL</strong>Current shell
+						</td>
+					</tr>
+				</tbody>
+			</table>		
+
+			<table>
+				<thead>
+					<tr>
+						<th>
+							Search File
+						</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>
+							<strong>grep pattern file</strong>Search for pattern in file
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>grep -i</strong>Case insensitive search
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>find /dir -name name</strong>Find file starting with name in dir
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>locate file</strong>Find file
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table>
+				<thead>
+					<tr>
+						<th>
+							File Operation
+						</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>
+							<strong>touch file1</strong>Create file1
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>cat file1 file2</strong>Concatenate file1 & file2
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>less file</strong>View and paginate file
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>cp file1 file2</strong>copy file1 to file2
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>mv file1 file2</strong>move file1 to file2
+						</td>
+					</tr>	
+					<tr>
+						<td>
+							<strong>rm file</strong>remove file
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+
+			<table>
+				<thead>
+					<tr>
+						<th>
+							File Permission
+						</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>
+							<strong>chmod xxx file</strong>change mod file to xxx
+						</td>
+						<tr>
+						<td>
+							<strong>chmd -R xxx folder</strong>recursivly chmod folder to xxx
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>chown user:group file</strong>Change file owner to user and group to group
+						</td>
+					</tr>
+					</tr>
+				</tbody>
+			</table>
+
+			<table>
+				<thead>
+					<tr>
+						<th>
+							I/O Redirection
+						</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>
+							<strong>cmd > file</strong>Standard output of cmd to file
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>cmd >> file</strong>Append standout to file
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>cmd 2> file</strong>Error output of cmd to file
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>cmd 1>&2</strong>stdout to same place as stderr
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>cmd &> file</strong>Every output of cmd to file 
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+
+			<table>
+				<thead>
+					<tr>
+						<th>
+							Process Managment
+						</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>
+							<strong>ps</strong>Show snapshot of processes
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>top</strong>Show real tie processing
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>kill <em>pid</em></strong>Kill process with pid
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<strong>killall name</strong>Kill all processus with names beginning name
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+
 		</section>
 
 		<footer>
