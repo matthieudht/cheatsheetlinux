@@ -19,7 +19,7 @@ header h1 {
 	height: 70%;
 	text-align: center;
 	padding-top: 1%;
-	color: #ad543e;A
+	color: #ad543e;
 }
 
 header p {
@@ -37,7 +37,8 @@ div {
 img {
 	display: inline-block;
 	vertical-align: top;
-	height: 100%;
+	width: 20%;
+	max-width: 200px;
 	opacity: 0.4;
 }
 
@@ -105,4 +106,13 @@ a:link {
 a:visited {
 	color: #224f52;
 }
-
+@media screen and (max-width: 400px)
+{
+	nav {
+		display: none;
+	}
+	header h1 {
+		font-size: 25px;
+		word-wrap: break-word;
+	}
+}
