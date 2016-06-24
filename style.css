@@ -95,7 +95,7 @@ footer {
 
 }
 
-a:hover {
+a:hover, a:visited:hover, a:link:hover {
 	color:#ba6e39;
 }
 
