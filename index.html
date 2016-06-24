@@ -6,36 +6,38 @@
 		<meta charset="utf-8" >
 		<meta name="keywords" content="cheatsheet,vim,editor">
 		<meta name="author" content="Dehondt matthieu">				
-		<meta name="description" content="a cheatsheet for vim editor">
+		<meta name="description" content="a cheatsheet for Linux ">
 		<title>CheatSheet For Linux commands</title>
 		<link rel="stylesheet" href="style.css" type="text/css">
 	</head>
 	
 	<body>
 		<header>
+			<div class="title">
 			<h1>CheatSheetLinux</h1>
 			<p>A CheatSheet For Linux Commands</p>
-			<img src="#" alt="logo linux">
+			</div>
+			<img src="linux.jpg" alt="logo linux">
 		</header>
 
 
 		<nav>
-			<a href="#">Bash Commands</a>
-			<a href="#">Bash Shorcuts</a>
-			<a href="#">Directory Operation</a>
-			<a href="#">Ls Option</a>
-			<a href="#">Bash Variable</a>
-			<a href="#">Search Files</a>
-			<a href="#">File Operation</a>
-			<a href="#">File Permissions</a>
-			<a href="#">I/O Redirection</a>
-			<a href="#">Process Managment</a>
+			<a href="#bash">Bash Commands</a>
+			<a href="#bash s">Bash Shorcuts</a>
+			<a href="#directry">Directory Operation</a>
+			<a href="#ls">Ls Option</a>
+			<a href="#variable">Bash Variable</a>
+			<a href="#search">Search Files</a>
+			<a href="#file">File Operation</a>
+			<a href="#permission">File Permissions</a>
+			<a href="#redirection">I/O Redirection</a>
+			<a href="#process">Process Managment</a>
 		</nav>
 
 		<section>
 			<table>
 				<thead>
-					<tr>
+					<tr id="bash">
 						<th>
 							Bash Commands
 						</th>
@@ -45,28 +47,28 @@
 				<tbody>
 					<tr>
 						<td>
-							<strong>uname -a</strong>Show system and kernel
+							<strong>uname -a</strong>	Show system and kernel
 
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>mount</strong>Show mounted file system
+							<strong>mount</strong>	Show mounted file system
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>date</strong>show system date
+							<strong>date</strong>	show system date
 						</td>
 					</tr>	
 					<tr>
 						<td>
-							<strong>whoami</strong>Show your username
+							<strong>whoami</strong>		Show your username
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>man command</strong>Show manual for command
+						<strong>man <em>command</em></strong>	Show manual for command
 						</td>
 					</tr>
 				</tbody>
@@ -75,7 +77,7 @@
 			<table>
 				<thead>
 					<tr>
-						<th>
+						<th id="bash s">
 							Bash Shortcut
 						</th>
 					</tr>
@@ -84,32 +86,32 @@
 				<tbody>
 					<tr>
 						<td>
-							<strong>Ctrl-c</strong>Stop current command
+							<strong>Ctrl-c</strong>		Stop current command
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>Ctrl-z</strong>Sleep Program	
+							<strong>Ctrl-z</strong>		Sleep Program	
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>Ctrl-a</strong>Go to start of line	
+							<strong>Ctrl-a</strong>		Go to start of line	
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>Ctrl-e</strong> Go to end of line 
+							<strong>Ctrl-e</strong>		Go to end of line 
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>Ctrl-u</strong>Cut from start of line	
+							<strong>Ctrl-u</strong>		Cut from start of line	
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>Ctrl-k</strong>Cut from end of line	
+							<strong>Ctrl-k</strong>		Cut from end of line	
 						</td>
 					</tr>
 				</tbody>
@@ -118,7 +120,7 @@
 			<table>
 				<thead>
 					<tr>
-						<th>
+						<th id="directory">
 							Directory Operations	
 						</th>
 					</tr>
@@ -127,27 +129,27 @@
 				<tbody>
 					<tr>
 						<td>
-							<strong>pwd</strong>Show current directory
+							<strong>pwd</strong>	Show current directory
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>mkdir dir</strong>Make directory <em>dir</em>
+							<strong>mkdir <em>dir</em></strong>		Make directory <em>dir</em>
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>cd dir</strong>Change directory to <em>dir</em>
+							<strong>cd <em>dir</em></strong>	Change directory to <em>dir</em>
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>cd ..</strong>Go up a directry
+							<strong>cd ..</strong>	Go up a directry
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>ls</strong>List files
+							<strong>ls</strong>		List files
 						</td>
 					</tr>
 
@@ -157,7 +159,7 @@
 			<table>
 				<thead>
 					<tr>
-						<th>
+						<th id="ls">
 							Ls Option
 						</th>
 					</tr>
@@ -166,32 +168,32 @@
 				<tbody>
 					<tr>
 						<td>
-							<strong>ls -a</strong>Show all(include hidden)
+							<strong>ls -a</strong>	Show all(include hidden)
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>ls -R</strong>Recursive list
+							<strong>ls -R</strong>	Recursive list
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>ls -r</strong>Reverse order
+							<strong>ls -r</strong>	Reverse order
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>ls -t</strong>Sort by last modified
+							<strong>ls -t</strong>	Sort by last modified
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>ls -S</strong>Sort by file size 
+							<strong>ls -S</strong>	Sort by file size 
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>ls -l</strong>Long listing format
+							<strong>ls -l</strong>	Long listing format
 						</td>
 					</tr>
 
@@ -201,7 +203,7 @@
 			<table>
 				<thead>
 					<tr>
-						<th>
+						<th id="variable">
 							Bash Variable
 						</th>
 					</tr>
@@ -210,32 +212,32 @@
 				<tbody>
 					<tr>
 						<td>
-							<strong>env</strong>Show environement variable
+							<strong>env</strong>	Show environement variable
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>acho $NAME</strong>Output value of $NAME variable
+							<strong>echo <em>$NAME</em></strong>	Output value of $NAME variable
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>export $NAME= value</strong>set $NAME to value
+							<strong>export $NAME= value</strong>	Set $NAME to value
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>$PATH</strong>Executable search path
+							<strong>$PATH</strong>	Executable search path
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>$HOME</strong>Home directory
+							<strong>$HOME</strong>	Home directory
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>$SHELL</strong>Current shell
+							<strong>$SHELL</strong>	Current shell
 						</td>
 					</tr>
 				</tbody>
@@ -244,7 +246,7 @@
 			<table>
 				<thead>
 					<tr>
-						<th>
+						<th id="search">
 							Search File
 						</th>
 					</tr>
@@ -253,22 +255,22 @@
 				<tbody>
 					<tr>
 						<td>
-							<strong>grep pattern file</strong>Search for pattern in file
+							<strong>grep pattern file</strong>	Search for pattern in file
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>grep -i</strong>Case insensitive search
+							<strong>grep -i</strong>	Case insensitive search
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>find /dir -name name</strong>Find file starting with name in dir
+							<strong>find /dir -name <em>name</em></strong>	Find file starting with name in dir
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>locate file</strong>Find file
+							<strong>locate <em>file</em></strong>	Find file
 						</td>
 					</tr>
 				</tbody>
@@ -277,7 +279,7 @@
 			<table>
 				<thead>
 					<tr>
-						<th>
+						<th id="file">
 							File Operation
 						</th>
 					</tr>
@@ -286,32 +288,32 @@
 				<tbody>
 					<tr>
 						<td>
-							<strong>touch file1</strong>Create file1
+							<strong>touch <em>file1</em></strong>	Create file1
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>cat file1 file2</strong>Concatenate file1 & file2
+							<strong>cat <em>file1 file2</em></strong>	Concatenate file1 & file2
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>less file</strong>View and paginate file
+							<strong>less <em>file</em></strong>	View and paginate file
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>cp file1 file2</strong>copy file1 to file2
+							<strong>cp <em>file1 file2</em></strong>	Copy file1 to file2
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>mv file1 file2</strong>move file1 to file2
+							<strong>mv <em>file1 file2</em></strong>	Move file1 to file2
 						</td>
 					</tr>	
 					<tr>
 						<td>
-							<strong>rm file</strong>remove file
+							<strong>rm <em>file</em></strong>	Remove file
 						</td>
 					</tr>
 				</tbody>
@@ -321,7 +323,7 @@
 			<table>
 				<thead>
 					<tr>
-						<th>
+						<th id="permission">
 							File Permission
 						</th>
 					</tr>
@@ -330,16 +332,16 @@
 				<tbody>
 					<tr>
 						<td>
-							<strong>chmod xxx file</strong>change mod file to xxx
+							<strong>chmod xxx <em>file</em></strong>	Change mod file to xxx
 						</td>
 						<tr>
 						<td>
-							<strong>chmd -R xxx folder</strong>recursivly chmod folder to xxx
+							<strong>chmd -R xxx <em>folder</em></strong>	Recursivly chmod folder to xxx
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>chown user:group file</strong>Change file owner to user and group to group
+							<strong>chown user:group <em>file</em></strong>		Change file owner to user and group to group
 						</td>
 					</tr>
 					</tr>
@@ -349,7 +351,7 @@
 			<table>
 				<thead>
 					<tr>
-						<th>
+						<th id="redirection">
 							I/O Redirection
 						</th>
 					</tr>
@@ -358,27 +360,27 @@
 				<tbody>
 					<tr>
 						<td>
-							<strong>cmd > file</strong>Standard output of cmd to file
+							<strong>cmd > file</strong>		Standard output of cmd to file
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>cmd >> file</strong>Append standout to file
+							<strong>cmd >> file</strong>	Append standout to file
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>cmd 2> file</strong>Error output of cmd to file
+							<strong>cmd 2> file</strong>	Error output of cmd to file
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>cmd 1>&2</strong>stdout to same place as stderr
+							<strong>cmd 1>&2</strong>	Stdout to same place as stderr
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>cmd &> file</strong>Every output of cmd to file 
+							<strong>cmd &> file</strong>	Every output of cmd to file 
 						</td>
 					</tr>
 				</tbody>
@@ -388,7 +390,7 @@
 			<table>
 				<thead>
 					<tr>
-						<th>
+						<th id="process">
 							Process Managment
 						</th>
 					</tr>
@@ -397,22 +399,22 @@
 				<tbody>
 					<tr>
 						<td>
-							<strong>ps</strong>Show snapshot of processes
+							<strong>ps</strong>		Show snapshot of processes
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>top</strong>Show real tie processing
+							<strong>top</strong>	Show real tie processing
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>kill <em>pid</em></strong>Kill process with pid
+							<strong>kill <em>pid</em></strong>	Kill process with pid
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<strong>killall name</strong>Kill all processus with names beginning name
+							<strong>killall <em>name</em></strong>		Kill all processus with names beginning name
 						</td>
 					</tr>
 				</tbody>
@@ -422,6 +424,7 @@
 		</section>
 
 		<footer>
+			website by DEHONDT MATTHIEU
 		</footer>
 	</body>
 <html>

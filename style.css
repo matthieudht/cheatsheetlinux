@@ -1,0 +1,108 @@
+/* page style for cheatSheet linux*/
+
+* {
+	margin: 1px;
+}
+body {
+	background-image: url('font3.jpg');
+	background-size: 100%;
+
+}
+
+header {
+	height: 20%;
+	
+}
+
+header h1 {
+	font-size: 280%;
+	height: 70%;
+	text-align: center;
+	padding-top: 1%;
+	color: #ad543e;A
+}
+
+header p {
+	text-align: center;
+	color: #a33f50;
+}
+
+
+div {
+	display:inline-block;
+	width: 70%;
+	height: 100%;
+}
+
+img {
+	display: inline-block;
+	vertical-align: top;
+	height: 100%;
+	opacity: 0.4;
+}
+
+nav {
+	height: 15%;
+	margin-top: 3%;
+	
+
+
+}
+
+a {
+	display: inline-block;
+	margin: 0.5%;
+	font-size: 150%;
+}
+
+
+section {
+	;
+
+}
+
+table {
+	display: inline-block;
+	vertical-align: top;
+	margin: 1%;
+	color: #474536;
+}
+
+thead {
+	color: #96653d;
+}
+
+th {
+	font-size: 150%;
+	padding: 5px;
+	color
+}
+
+td {
+	font-size: 120%;
+	padding: 5px;
+}
+
+strong {
+	margin-right: 10px; 
+	color: #ad883e;
+}
+
+
+footer {
+
+
+}
+
+a:hover {
+	color:#ba6e39;
+}
+
+a:link {
+	color: #08846c;
+}
+
+a:visited {
+	color: #224f52;
+}
+
