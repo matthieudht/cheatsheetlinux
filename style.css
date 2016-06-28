@@ -9,6 +9,8 @@ body {
 
 }
 
+/* header style */
+
 header {
 	height: 20%;
 	
@@ -42,6 +44,9 @@ img {
 	opacity: 0.4;
 }
 
+
+/* navigation style */
+
 nav {
 	height: 15%;
 	margin-top: 3%;
@@ -57,10 +62,7 @@ a {
 }
 
 
-section {
-	;
-
-}
+/* content style */
 
 table {
 	display: inline-block;
